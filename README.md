@@ -96,12 +96,12 @@ A word of caution
 History
 -------
 
- version 2.1 -- July 25, 2009
+version 2.1 -- July 25, 2009
 
   * Added the unofficial "05" key, which can be used in combination
     with Brandon Wilson's Free83P to sign TI-83/84 Plus OSes.
 
- version 2.0 -- July 19, 2009
+version 2.0 -- July 19, 2009
 
   * Added the RSA algorithm; RabbitSign now allows signing and
     validating OS upgrades and 68k applications.  (You still need, of
@@ -123,13 +123,13 @@ History
   * Major API changes to provide various new features, and generally
     to make RabbitSign easier to integrate into other software.
 
- version 1.2 -- July 24, 2007
+version 1.2 -- July 24, 2007
 
   * Avoid setting app length to 55 modulo 64.  (Such apps do not
     validate correctly on the TI-73 or 83+ BE, due to a bug in the
     boot code.)
 
- version 1.1 -- May 31, 2007
+version 1.1 -- May 31, 2007
 
   * OMIT_FINAL_NEWLINE and PAD_OUTPUT are now default, to work around
     bugs in tifiles2 and TI-Connect respectively.
@@ -143,7 +143,7 @@ History
   * Test code now compiles on old and/or dumb systems that provide
     rand() and not random().
 
- version 1.0 -- February 3, 2006
+version 1.0 -- February 3, 2006
 
   * First public release.
 
